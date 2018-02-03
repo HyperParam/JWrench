@@ -4,10 +4,6 @@ import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 
-/**
- * @since 1.7
- * @author trDna
- */
 public class AddGetterAdapter extends ClassVisitor implements Opcodes {
 
     private String fieldName = null;
